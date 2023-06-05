@@ -1,0 +1,138 @@
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(1, 1, 61);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        background-color: rgb(16, 16, 54);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 6vw;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 2rem;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: #ffc107;
+      }
+      main hr {
+        border: 0;
+        background-color: #e0e2ee;
+        height: 1px;
+        margin: 12vh 6vw;
+      }
+
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        margin: 10vh 0;
+      }
+      .firstSection > div {
+        width: 36%;
+      }
+      .leftSection {
+        font-size: 3rem;
+        /* margin: 70 px 0; */
+      }
+      .leftSection .buttons {
+        padding: 50px 0;
+      }
+      .leftSection .btn {
+        padding: 2vh;
+        background-color: #1c1c64;
+        color: white;
+        border: 2px solid white;
+        border-radius: 5vh;
+        font-size: 4vh;
+        cursor: pointer;
+      }
+      .rightSection img {
+        width: 86%;
+        margin: 5vh 0;
+      }
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .secondSection h1 {
+        font-size: 3rem;
+      }
+      .secondSection .box {
+        width: 76vw;
+        background: white;
+        height: 2px;
+        margin: 12vh 0;
+        display: flex;
+      }
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 120px;
+      }
+      .purple {
+        color: rgb(167, 90, 239);
+      }
+      #element {
+        color: rgb(167, 90, 239);
+      }
+      .text-gray {
+        color: gray;
+      }
+      .image-top {
+        width: 23px;
+        left: -10px;
+        position: relative;
+        top: -29px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 15vh;
+        width: 11vw;
+      }
+
+      .vertical-desc {
+        position: relative;
+        top: 6rem;
+        width: 175px;
+        font-size: 9px;
+        color: gray;
+      }
+      footer {
+        background-color: #080817;
+      }
+      .footer {
+        display: flex;
+        padding: 6vh 11vw;
+        justify-content: space-evenly;
+      }
+      .footer ul {
+        list-style: none;
+      }
+      .footer > div {
+        width: 123px;
+      }
+      footer .footer-rights {
+        text-align: center;
+        color: gray;
+      }
+    
